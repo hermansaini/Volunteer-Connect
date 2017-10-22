@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6357019495F8DF1EFCFAFF1A /* libPods-Volunteer Connect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F149232DBB6B5D22005EAB /* libPods-Volunteer Connect.a */; };
+		D2A0BE8C1F9BD71400A20125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0BE8B1F9BD71400A20125 /* AppDelegate.swift */; };
+		D2A0BE8E1F9BD71400A20125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0BE8D1F9BD71400A20125 /* ViewController.swift */; };
+		D2A0BE911F9BD71400A20125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A0BE8F1F9BD71400A20125 /* Main.storyboard */; };
+		D2A0BE941F9BD71400A20125 /* Volunteer_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2A0BE921F9BD71400A20125 /* Volunteer_Connect.xcdatamodeld */; };
+		D2A0BE961F9BD71400A20125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A0BE951F9BD71400A20125 /* Assets.xcassets */; };
+		D2A0BE991F9BD71400A20125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A0BE971F9BD71400A20125 /* LaunchScreen.storyboard */; };
+		D2A0BEA11F9BDB3300A20125 /* VolunteerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0BEA01F9BDB3300A20125 /* VolunteerPage.swift */; };
+		D2A0BEA31F9BDEFF00A20125 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0BEA21F9BDEFF00A20125 /* ProfilePage.swift */; };
+		D2A0BEA51F9BE66800A20125 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2A0BEA41F9BE66800A20125 /* GoogleService-Info.plist */; };
+		D2A0BEA71F9BEBC600A20125 /* SignInpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0BEA61F9BEBC500A20125 /* SignInpage.swift */; };
+		D2A0BEAB1F9C180700A20125 /* Tommy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2A0BEAA1F9C180700A20125 /* Tommy.jpeg */; };
+		D2A0BEAD1F9C1A6C00A20125 /* EventPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0BEAC1F9C1A6C00A20125 /* EventPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50F149232DBB6B5D22005EAB /* libPods-Volunteer Connect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Volunteer Connect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9436ECD935973FB12E97F063 /* Pods-Volunteer Connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volunteer Connect.release.xcconfig"; path = "Pods/Target Support Files/Pods-Volunteer Connect/Pods-Volunteer Connect.release.xcconfig"; sourceTree = "<group>"; };
+		CF530CD7EE06E7617C784ECD /* Pods-Volunteer Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volunteer Connect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Volunteer Connect/Pods-Volunteer Connect.debug.xcconfig"; sourceTree = "<group>"; };
+		D2A0BE881F9BD71400A20125 /* Volunteer Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Volunteer Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A0BE8B1F9BD71400A20125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2A0BE8D1F9BD71400A20125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2A0BE901F9BD71400A20125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2A0BE931F9BD71400A20125 /* Volunteer_Connect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Volunteer_Connect.xcdatamodel; sourceTree = "<group>"; };
+		D2A0BE951F9BD71400A20125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2A0BE981F9BD71400A20125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2A0BE9A1F9BD71400A20125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A0BEA01F9BDB3300A20125 /* VolunteerPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolunteerPage.swift; sourceTree = "<group>"; };
+		D2A0BEA21F9BDEFF00A20125 /* ProfilePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		D2A0BEA41F9BE66800A20125 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D2A0BEA61F9BEBC500A20125 /* SignInpage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInpage.swift; sourceTree = "<group>"; };
+		D2A0BEA81F9C0F3F00A20125 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D2A0BEAA1F9C180700A20125 /* Tommy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tommy.jpeg; path = ../../../../Desktop/Tommy.jpeg; sourceTree = "<group>"; };
+		D2A0BEAC1F9C1A6C00A20125 /* EventPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2A0BE851F9BD71400A20125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6357019495F8DF1EFCFAFF1A /* libPods-Volunteer Connect.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D5623C2B1523E400161601C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2A0BEA81F9C0F3F00A20125 /* MapKit.framework */,
+				50F149232DBB6B5D22005EAB /* libPods-Volunteer Connect.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEA4B17ADDF8E52BBA90A4B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF530CD7EE06E7617C784ECD /* Pods-Volunteer Connect.debug.xcconfig */,
+				9436ECD935973FB12E97F063 /* Pods-Volunteer Connect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2A0BE7F1F9BD71400A20125 = {
+			isa = PBXGroup;
+			children = (
+				D2A0BE8A1F9BD71400A20125 /* Volunteer Connect */,
+				D2A0BE891F9BD71400A20125 /* Products */,
+				AEA4B17ADDF8E52BBA90A4B1 /* Pods */,
+				4D5623C2B1523E400161601C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A0BE891F9BD71400A20125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A0BE881F9BD71400A20125 /* Volunteer Connect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2A0BE8A1F9BD71400A20125 /* Volunteer Connect */ = {
+			isa = PBXGroup;
+			children = (
+				D2A0BE8B1F9BD71400A20125 /* AppDelegate.swift */,
+				D2A0BE8D1F9BD71400A20125 /* ViewController.swift */,
+				D2A0BEA01F9BDB3300A20125 /* VolunteerPage.swift */,
+				D2A0BEAC1F9C1A6C00A20125 /* EventPage.swift */,
+				D2A0BEA61F9BEBC500A20125 /* SignInpage.swift */,
+				D2A0BEA21F9BDEFF00A20125 /* ProfilePage.swift */,
+				D2A0BE8F1F9BD71400A20125 /* Main.storyboard */,
+				D2A0BE951F9BD71400A20125 /* Assets.xcassets */,
+				D2A0BE971F9BD71400A20125 /* LaunchScreen.storyboard */,
+				D2A0BE9A1F9BD71400A20125 /* Info.plist */,
+				D2A0BE921F9BD71400A20125 /* Volunteer_Connect.xcdatamodeld */,
+				D2A0BEA41F9BE66800A20125 /* GoogleService-Info.plist */,
+				D2A0BEAA1F9C180700A20125 /* Tommy.jpeg */,
+			);
+			path = "Volunteer Connect";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2A0BE871F9BD71400A20125 /* Volunteer Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A0BE9D1F9BD71400A20125 /* Build configuration list for PBXNativeTarget "Volunteer Connect" */;
+			buildPhases = (
+				A9B644173F37D4FB86971FC8 /* [CP] Check Pods Manifest.lock */,
+				D2A0BE841F9BD71400A20125 /* Sources */,
+				D2A0BE851F9BD71400A20125 /* Frameworks */,
+				D2A0BE861F9BD71400A20125 /* Resources */,
+				0E073CFC566185C1E415226D /* [CP] Embed Pods Frameworks */,
+				CBCC9AD530C9B73285F88BC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Volunteer Connect";
+			productName = "Volunteer Connect";
+			productReference = D2A0BE881F9BD71400A20125 /* Volunteer Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2A0BE801F9BD71400A20125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Herman Saini";
+				TargetAttributes = {
+					D2A0BE871F9BD71400A20125 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 67H6H74V6P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D2A0BE831F9BD71400A20125 /* Build configuration list for PBXProject "Volunteer Connect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2A0BE7F1F9BD71400A20125;
+			productRefGroup = D2A0BE891F9BD71400A20125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2A0BE871F9BD71400A20125 /* Volunteer Connect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2A0BE861F9BD71400A20125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A0BE991F9BD71400A20125 /* LaunchScreen.storyboard in Resources */,
+				D2A0BEA51F9BE66800A20125 /* GoogleService-Info.plist in Resources */,
+				D2A0BE961F9BD71400A20125 /* Assets.xcassets in Resources */,
+				D2A0BEAB1F9C180700A20125 /* Tommy.jpeg in Resources */,
+				D2A0BE911F9BD71400A20125 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E073CFC566185C1E415226D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Volunteer Connect/Pods-Volunteer Connect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B644173F37D4FB86971FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCC9AD530C9B73285F88BC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Volunteer Connect/Pods-Volunteer Connect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2A0BE841F9BD71400A20125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A0BE941F9BD71400A20125 /* Volunteer_Connect.xcdatamodeld in Sources */,
+				D2A0BE8E1F9BD71400A20125 /* ViewController.swift in Sources */,
+				D2A0BEA71F9BEBC600A20125 /* SignInpage.swift in Sources */,
+				D2A0BEA31F9BDEFF00A20125 /* ProfilePage.swift in Sources */,
+				D2A0BEAD1F9C1A6C00A20125 /* EventPage.swift in Sources */,
+				D2A0BE8C1F9BD71400A20125 /* AppDelegate.swift in Sources */,
+				D2A0BEA11F9BDB3300A20125 /* VolunteerPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2A0BE8F1F9BD71400A20125 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A0BE901F9BD71400A20125 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2A0BE971F9BD71400A20125 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A0BE981F9BD71400A20125 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2A0BE9B1F9BD71400A20125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2A0BE9C1F9BD71400A20125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2A0BE9E1F9BD71400A20125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF530CD7EE06E7617C784ECD /* Pods-Volunteer Connect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67H6H74V6P;
+				INFOPLIST_FILE = "Volunteer Connect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.herman.VolunteerConnect.Volunteer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D2A0BE9F1F9BD71400A20125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9436ECD935973FB12E97F063 /* Pods-Volunteer Connect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67H6H74V6P;
+				INFOPLIST_FILE = "Volunteer Connect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.herman.VolunteerConnect.Volunteer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A0BE831F9BD71400A20125 /* Build configuration list for PBXProject "Volunteer Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A0BE9B1F9BD71400A20125 /* Debug */,
+				D2A0BE9C1F9BD71400A20125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A0BE9D1F9BD71400A20125 /* Build configuration list for PBXNativeTarget "Volunteer Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A0BE9E1F9BD71400A20125 /* Debug */,
+				D2A0BE9F1F9BD71400A20125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2A0BE921F9BD71400A20125 /* Volunteer_Connect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2A0BE931F9BD71400A20125 /* Volunteer_Connect.xcdatamodel */,
+			);
+			currentVersion = D2A0BE931F9BD71400A20125 /* Volunteer_Connect.xcdatamodel */;
+			path = Volunteer_Connect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2A0BE801F9BD71400A20125 /* Project object */;
+}
